@@ -1,0 +1,62 @@
+.pantalla{
+    display: flex;
+    width: 100%;
+    height: 667px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 6rem 1fr 6rem;
+}
+.caja{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    padding: 2rem;
+    background-color: rgb(100, 189, 248);
+}
+.cajita{
+   display: flex;
+   width: 100%;
+   height: 100%;
+   flex-direction: column;
+}
+.cajita h2{
+    width: 100%;
+    font-size: 2.4rem;
+    font-weight: 100;
+    color:black;
+    border-bottom: 1px solid black;
+    
+}
+.cajita p{
+    width: 100%;
+    font-size: 1.6rem;
+}
+.stak{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 1rem;
+    margin-top: 10rem;
+}
+.staks{
+    border:  1px solid gray;
+    border-radius: 3px;
+    padding: 1rem;
+}
+.staks img{
+    width: 100%;
+}
+.end{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    font-size: 1.9rem;
+    text-align: center;
+    place-items: center;
+    justify-content: center;
+}
+
